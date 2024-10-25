@@ -1,0 +1,184 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+header {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header .nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+header .nav a:hover {
+    text-decoration: underline;
+}
+
+header .reservation {
+    background-color: #E63946;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+header .reservation:hover {
+    background-color: #D62828;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+header .btn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #E63946;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+header .btn:hover {
+    background-color: #D62828;
+}
+
+/* About Section */
+section {
+    padding: 100px 0;
+}
+
+.about img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Chefs Section */
+.chefs img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.chefs h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.chefs p {
+    font-size: 18px;
+}
+
+/* Menu Section */
+.menu img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.menu h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.testimonials p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.testimonials h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+/* Contact Section */
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 10px 20px;
+    background-color: #E63946;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.contact form button:hover {
+    background-color: #D62828;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+footer .social-icons a {
+    color: white;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+footer .social-icons a:hover {
+    color: #E63946;
+}
